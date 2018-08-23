@@ -7,7 +7,7 @@ def position_taken?(board, index)
      return true
   
 elsif
-  board[index].between(1,8) == "X"  || 10
+  board[index].between(1,8) == "X"  
    return false
     
 elseif
