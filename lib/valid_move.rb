@@ -11,7 +11,7 @@ elsif
     return false
     
 elseif
-  board[index] < 8
+  board[index] > 8
   retur false
 end
 
