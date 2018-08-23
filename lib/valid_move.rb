@@ -11,7 +11,7 @@ elsif
     return false
     
 elseif
-   == 10
+   valid_move?(board, index) == 10
   return false
 end
 
