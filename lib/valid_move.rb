@@ -12,7 +12,7 @@ elsif
     
 elseif
   board[index] > 8
-  retur false
+  return false
 end
 
 end  
