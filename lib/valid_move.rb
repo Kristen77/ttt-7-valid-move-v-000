@@ -6,14 +6,12 @@ def position_taken?(board, index)
   if board[index].between(1,8) == " " && !position_taken(board, index)  
      return true
   
-elsif
-  board[index] == "X"  
+  elsif board[index] == "X"  
    return false
     
-elseif
-   board[index] == 10
+  elsif board[index] == 10
     return false
-end
+  end
 
 end  
 
