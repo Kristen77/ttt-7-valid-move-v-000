@@ -11,7 +11,7 @@ elsif
     return false
     
 elseif
-  board[index] == 100
+  board[index] == 10
   return false
 end
 
